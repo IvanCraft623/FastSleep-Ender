@@ -5,6 +5,6 @@ Hello, this plugin enables sleeping even if only one player is in bed and will a
 No permissions
 
 ## Installation
-1. Download phar [here](https://poggit.pmmp.io)
+1. Download phar [here](https://poggit.pmmp.io/r/87450/FastSleep-Ender.phar)
 2. Install it on your server
 3. Go to plugin_data » EnderCore » config.yml
