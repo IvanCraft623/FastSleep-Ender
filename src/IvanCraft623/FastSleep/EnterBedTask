@@ -1,0 +1,27 @@
+<?php
+
+namespace IvanCraft623\FastSleep;
+
+use IvanCraft623\FastSleep\FastSleep;
+use pocketmine\level\Position;
+use pocketmine\{Player, Server};
+use pocketmine\level\Level;
+use pocketmine\scheduler\Task;
+
+class EnterBedTask extends Task {
+
+	public function __construct(FastSleep $main) {
+		$this->main = $main;
+	}
+
+	public function onRun(int $currentTick) {
+		foreach(Server::getInstance()->getOnlinePlayers() as $pl){
+			$player = $pl->getPlayer();
+			$player->getLevel()->setTime(0);
+			$x = $player->getX();
+			$y = $player->getY();
+			$z = $player->getZ();
+			$player->teleport(new Position($x, $y, $z));
+		}
+	}
+}
