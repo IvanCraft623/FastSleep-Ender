@@ -1,4 +1,4 @@
-# EnderCore
+# FastSleep-Ender
 Hello, this plugin enables sleeping even if only one player is in bed and will allow it to get day without the need for all players to be in bed.
 
 ## Permissions     
