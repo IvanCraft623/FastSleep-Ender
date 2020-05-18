@@ -1,0 +1,6 @@
+name: FastSleep-Ender
+main: IvanCraft623\FastSleep\FastSleep
+author: IvanCraft623
+api: [3.9.9]
+version: 0.0.1
+description: Hello, this plugin enables sleeping even if only one player is in bed and will allow it to get day without the need for all players to be in bed.
